@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300FCA9D5BD7E45DED33091D /* libPods-DTVideoDubbingViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A3009154BEE731A930FD4BE /* libPods-DTVideoDubbingViewDemo.a */; };
+		6DEC16F5FB6A4950E15F9C29 /* libPods-DTVideoDubbingViewDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38DAA4BB6932C0428EA730CE /* libPods-DTVideoDubbingViewDemoTests.a */; };
+		8CC5FA41C9545D9B3A150EEB /* libPods-DTVideoDubbingViewDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B65C3036F8A87C229CB5E72 /* libPods-DTVideoDubbingViewDemoUITests.a */; };
+		DF0A970421423DAA00E2EB31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0A970321423DAA00E2EB31 /* AppDelegate.m */; };
+		DF0A970721423DAA00E2EB31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0A970621423DAA00E2EB31 /* ViewController.m */; };
+		DF0A970A21423DAA00E2EB31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0A970821423DAA00E2EB31 /* Main.storyboard */; };
+		DF0A970C21423DAB00E2EB31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0A970B21423DAB00E2EB31 /* Assets.xcassets */; };
+		DF0A970F21423DAB00E2EB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0A970D21423DAB00E2EB31 /* LaunchScreen.storyboard */; };
+		DF0A971221423DAB00E2EB31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0A971121423DAB00E2EB31 /* main.m */; };
+		DF0A971C21423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0A971B21423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.m */; };
+		DF0A972721423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF0A972621423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF0A971821423DAB00E2EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0A96F721423DAA00E2EB31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0A96FE21423DAA00E2EB31;
+			remoteInfo = DTVideoDubbingViewDemo;
+		};
+		DF0A972321423DAB00E2EB31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF0A96F721423DAA00E2EB31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF0A96FE21423DAA00E2EB31;
+			remoteInfo = DTVideoDubbingViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DE04FB04061E76A7A2BA92B /* Pods-DTVideoDubbingViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTVideoDubbingViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTVideoDubbingViewDemo/Pods-DTVideoDubbingViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		11CB8D1C4ED4D2C3CAA60E02 /* Pods-DTVideoDubbingViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTVideoDubbingViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTVideoDubbingViewDemo/Pods-DTVideoDubbingViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2AD0A4205EE70DC9DC5F641E /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTVideoDubbingViewDemoUITests/Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38DAA4BB6932C0428EA730CE /* libPods-DTVideoDubbingViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTVideoDubbingViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		452EA7042FFD390A09B58677 /* Pods-DTVideoDubbingViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTVideoDubbingViewDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTVideoDubbingViewDemoUITests/Pods-DTVideoDubbingViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5B65C3036F8A87C229CB5E72 /* libPods-DTVideoDubbingViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTVideoDubbingViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A3009154BEE731A930FD4BE /* libPods-DTVideoDubbingViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTVideoDubbingViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828E7B78BB940263CC0976F2 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTVideoDubbingViewDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DTVideoDubbingViewDemoTests/Pods-DTVideoDubbingViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		94F3487D30C738E22EF3DC89 /* Pods-DTVideoDubbingViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTVideoDubbingViewDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTVideoDubbingViewDemoTests/Pods-DTVideoDubbingViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF0A96FF21423DAA00E2EB31 /* DTVideoDubbingViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DTVideoDubbingViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0A970221423DAA00E2EB31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF0A970321423DAA00E2EB31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF0A970521423DAA00E2EB31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF0A970621423DAA00E2EB31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF0A970921423DAA00E2EB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF0A970B21423DAB00E2EB31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF0A970E21423DAB00E2EB31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF0A971021423DAB00E2EB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0A971121423DAB00E2EB31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF0A971721423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTVideoDubbingViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0A971B21423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTVideoDubbingViewDemoTests.m; sourceTree = "<group>"; };
+		DF0A971D21423DAB00E2EB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF0A972221423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTVideoDubbingViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF0A972621423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DTVideoDubbingViewDemoUITests.m; sourceTree = "<group>"; };
+		DF0A972821423DAB00E2EB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF0A96FC21423DAA00E2EB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300FCA9D5BD7E45DED33091D /* libPods-DTVideoDubbingViewDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0A971421423DAB00E2EB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEC16F5FB6A4950E15F9C29 /* libPods-DTVideoDubbingViewDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0A971F21423DAB00E2EB31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CC5FA41C9545D9B3A150EEB /* libPods-DTVideoDubbingViewDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C9C166FC880339752D23148 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A3009154BEE731A930FD4BE /* libPods-DTVideoDubbingViewDemo.a */,
+				38DAA4BB6932C0428EA730CE /* libPods-DTVideoDubbingViewDemoTests.a */,
+				5B65C3036F8A87C229CB5E72 /* libPods-DTVideoDubbingViewDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9FE9E8371CE127BD435A89E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11CB8D1C4ED4D2C3CAA60E02 /* Pods-DTVideoDubbingViewDemo.debug.xcconfig */,
+				0DE04FB04061E76A7A2BA92B /* Pods-DTVideoDubbingViewDemo.release.xcconfig */,
+				94F3487D30C738E22EF3DC89 /* Pods-DTVideoDubbingViewDemoTests.debug.xcconfig */,
+				828E7B78BB940263CC0976F2 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */,
+				2AD0A4205EE70DC9DC5F641E /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */,
+				452EA7042FFD390A09B58677 /* Pods-DTVideoDubbingViewDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF0A96F621423DAA00E2EB31 = {
+			isa = PBXGroup;
+			children = (
+				DF0A970121423DAA00E2EB31 /* DTVideoDubbingViewDemo */,
+				DF0A971A21423DAB00E2EB31 /* DTVideoDubbingViewDemoTests */,
+				DF0A972521423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests */,
+				DF0A970021423DAA00E2EB31 /* Products */,
+				B9FE9E8371CE127BD435A89E /* Pods */,
+				9C9C166FC880339752D23148 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF0A970021423DAA00E2EB31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF0A96FF21423DAA00E2EB31 /* DTVideoDubbingViewDemo.app */,
+				DF0A971721423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.xctest */,
+				DF0A972221423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF0A970121423DAA00E2EB31 /* DTVideoDubbingViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DF0A970221423DAA00E2EB31 /* AppDelegate.h */,
+				DF0A970321423DAA00E2EB31 /* AppDelegate.m */,
+				DF0A970521423DAA00E2EB31 /* ViewController.h */,
+				DF0A970621423DAA00E2EB31 /* ViewController.m */,
+				DF0A970821423DAA00E2EB31 /* Main.storyboard */,
+				DF0A970B21423DAB00E2EB31 /* Assets.xcassets */,
+				DF0A970D21423DAB00E2EB31 /* LaunchScreen.storyboard */,
+				DF0A971021423DAB00E2EB31 /* Info.plist */,
+				DF0A971121423DAB00E2EB31 /* main.m */,
+			);
+			path = DTVideoDubbingViewDemo;
+			sourceTree = "<group>";
+		};
+		DF0A971A21423DAB00E2EB31 /* DTVideoDubbingViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF0A971B21423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.m */,
+				DF0A971D21423DAB00E2EB31 /* Info.plist */,
+			);
+			path = DTVideoDubbingViewDemoTests;
+			sourceTree = "<group>";
+		};
+		DF0A972521423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF0A972621423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.m */,
+				DF0A972821423DAB00E2EB31 /* Info.plist */,
+			);
+			path = DTVideoDubbingViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF0A96FE21423DAA00E2EB31 /* DTVideoDubbingViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0A972B21423DAB00E2EB31 /* Build configuration list for PBXNativeTarget "DTVideoDubbingViewDemo" */;
+			buildPhases = (
+				46B4F8089CA8FD2036C36FDE /* [CP] Check Pods Manifest.lock */,
+				DF0A96FB21423DAA00E2EB31 /* Sources */,
+				DF0A96FC21423DAA00E2EB31 /* Frameworks */,
+				DF0A96FD21423DAA00E2EB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTVideoDubbingViewDemo;
+			productName = DTVideoDubbingViewDemo;
+			productReference = DF0A96FF21423DAA00E2EB31 /* DTVideoDubbingViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF0A971621423DAB00E2EB31 /* DTVideoDubbingViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0A972E21423DAB00E2EB31 /* Build configuration list for PBXNativeTarget "DTVideoDubbingViewDemoTests" */;
+			buildPhases = (
+				C48AA6409308D4103EC12CE3 /* [CP] Check Pods Manifest.lock */,
+				DF0A971321423DAB00E2EB31 /* Sources */,
+				DF0A971421423DAB00E2EB31 /* Frameworks */,
+				DF0A971521423DAB00E2EB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF0A971921423DAB00E2EB31 /* PBXTargetDependency */,
+			);
+			name = DTVideoDubbingViewDemoTests;
+			productName = DTVideoDubbingViewDemoTests;
+			productReference = DF0A971721423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF0A972121423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF0A973121423DAB00E2EB31 /* Build configuration list for PBXNativeTarget "DTVideoDubbingViewDemoUITests" */;
+			buildPhases = (
+				75674DA15392F6792C6D9D67 /* [CP] Check Pods Manifest.lock */,
+				DF0A971E21423DAB00E2EB31 /* Sources */,
+				DF0A971F21423DAB00E2EB31 /* Frameworks */,
+				DF0A972021423DAB00E2EB31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF0A972421423DAB00E2EB31 /* PBXTargetDependency */,
+			);
+			name = DTVideoDubbingViewDemoUITests;
+			productName = DTVideoDubbingViewDemoUITests;
+			productReference = DF0A972221423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF0A96F721423DAA00E2EB31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DT;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = qutui360;
+				TargetAttributes = {
+					DF0A96FE21423DAA00E2EB31 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					DF0A971621423DAB00E2EB31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DF0A96FE21423DAA00E2EB31;
+					};
+					DF0A972121423DAB00E2EB31 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = DF0A96FE21423DAA00E2EB31;
+					};
+				};
+			};
+			buildConfigurationList = DF0A96FA21423DAA00E2EB31 /* Build configuration list for PBXProject "DTVideoDubbingViewDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF0A96F621423DAA00E2EB31;
+			productRefGroup = DF0A970021423DAA00E2EB31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF0A96FE21423DAA00E2EB31 /* DTVideoDubbingViewDemo */,
+				DF0A971621423DAB00E2EB31 /* DTVideoDubbingViewDemoTests */,
+				DF0A972121423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF0A96FD21423DAA00E2EB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0A970F21423DAB00E2EB31 /* LaunchScreen.storyboard in Resources */,
+				DF0A970C21423DAB00E2EB31 /* Assets.xcassets in Resources */,
+				DF0A970A21423DAA00E2EB31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0A971521423DAB00E2EB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0A972021423DAB00E2EB31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46B4F8089CA8FD2036C36FDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTVideoDubbingViewDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75674DA15392F6792C6D9D67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTVideoDubbingViewDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48AA6409308D4103EC12CE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DTVideoDubbingViewDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF0A96FB21423DAA00E2EB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0A970721423DAA00E2EB31 /* ViewController.m in Sources */,
+				DF0A971221423DAB00E2EB31 /* main.m in Sources */,
+				DF0A970421423DAA00E2EB31 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0A971321423DAB00E2EB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0A971C21423DAB00E2EB31 /* DTVideoDubbingViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF0A971E21423DAB00E2EB31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF0A972721423DAB00E2EB31 /* DTVideoDubbingViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF0A971921423DAB00E2EB31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0A96FE21423DAA00E2EB31 /* DTVideoDubbingViewDemo */;
+			targetProxy = DF0A971821423DAB00E2EB31 /* PBXContainerItemProxy */;
+		};
+		DF0A972421423DAB00E2EB31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF0A96FE21423DAA00E2EB31 /* DTVideoDubbingViewDemo */;
+			targetProxy = DF0A972321423DAB00E2EB31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF0A970821423DAA00E2EB31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0A970921423DAA00E2EB31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF0A970D21423DAB00E2EB31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF0A970E21423DAB00E2EB31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF0A972921423DAB00E2EB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF0A972A21423DAB00E2EB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF0A972C21423DAB00E2EB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CB8D1C4ED4D2C3CAA60E02 /* Pods-DTVideoDubbingViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FY25DV7PU;
+				INFOPLIST_FILE = DTVideoDubbingViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qutui360.DTVideoDubbingViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF0A972D21423DAB00E2EB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DE04FB04061E76A7A2BA92B /* Pods-DTVideoDubbingViewDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FY25DV7PU;
+				INFOPLIST_FILE = DTVideoDubbingViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qutui360.DTVideoDubbingViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF0A972F21423DAB00E2EB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F3487D30C738E22EF3DC89 /* Pods-DTVideoDubbingViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DTVideoDubbingViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qutui360.DTVideoDubbingViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTVideoDubbingViewDemo.app/DTVideoDubbingViewDemo";
+			};
+			name = Debug;
+		};
+		DF0A973021423DAB00E2EB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828E7B78BB940263CC0976F2 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DTVideoDubbingViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qutui360.DTVideoDubbingViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DTVideoDubbingViewDemo.app/DTVideoDubbingViewDemo";
+			};
+			name = Release;
+		};
+		DF0A973221423DAB00E2EB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AD0A4205EE70DC9DC5F641E /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DTVideoDubbingViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qutui360.DTVideoDubbingViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DTVideoDubbingViewDemo;
+			};
+			name = Debug;
+		};
+		DF0A973321423DAB00E2EB31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 452EA7042FFD390A09B58677 /* Pods-DTVideoDubbingViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DTVideoDubbingViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qutui360.DTVideoDubbingViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DTVideoDubbingViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF0A96FA21423DAA00E2EB31 /* Build configuration list for PBXProject "DTVideoDubbingViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0A972921423DAB00E2EB31 /* Debug */,
+				DF0A972A21423DAB00E2EB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0A972B21423DAB00E2EB31 /* Build configuration list for PBXNativeTarget "DTVideoDubbingViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0A972C21423DAB00E2EB31 /* Debug */,
+				DF0A972D21423DAB00E2EB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0A972E21423DAB00E2EB31 /* Build configuration list for PBXNativeTarget "DTVideoDubbingViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0A972F21423DAB00E2EB31 /* Debug */,
+				DF0A973021423DAB00E2EB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF0A973121423DAB00E2EB31 /* Build configuration list for PBXNativeTarget "DTVideoDubbingViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF0A973221423DAB00E2EB31 /* Debug */,
+				DF0A973321423DAB00E2EB31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF0A96F721423DAA00E2EB31 /* Project object */;
+}
