@@ -17,7 +17,7 @@
 		60B350F3D6919253FFD15B27D6C04B51 /* XXVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C6AF943AADFD0E148D9CB5C0140CC0 /* XXVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		692E3EC66F71E80D1E629EFB57F964FA /* Pods-DTVideoDubbingViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4A6715524CD15A7B8FAAF3981FE6A /* Pods-DTVideoDubbingViewDemoTests-dummy.m */; };
 		A6AC3E20E39911DF2C12AEF8B6C5F900 /* XXVideoDubbingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B09145F5B84C7A9C81F7253C04648B /* XXVideoDubbingViewController.m */; };
-		CBB7AEA023CFFD7E009401AF /* 1578277138056790.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBB7AE9F23CFFD7E009401AF /* 1578277138056790.mp4 */; };
+		CBB7AEA323CFFDE8009401AF /* 1578277138056790.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBB7AEA223CFFDE8009401AF /* 1578277138056790.mp4 */; };
 		D3FD6437F01852E55AF15A2BC3EF750E /* XXVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D363D812DE576F0D916268D8FAFC40 /* XXVideoPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -81,7 +81,7 @@
 		B557D89625F24B2551FD1DD426C976C8 /* DTVideoDubbingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTVideoDubbingView-dummy.m"; sourceTree = "<group>"; };
 		C430781821E3636895F67280FED0EDC7 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8F4A6715524CD15A7B8FAAF3981FE6A /* Pods-DTVideoDubbingViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTVideoDubbingViewDemoTests-dummy.m"; sourceTree = "<group>"; };
-		CBB7AE9F23CFFD7E009401AF /* 1578277138056790.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1578277138056790.mp4; sourceTree = "<group>"; };
+		CBB7AEA223CFFDE8009401AF /* 1578277138056790.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1578277138056790.mp4; sourceTree = "<group>"; };
 		CC41F617ED997C899BA71DA22E9E2CD2 /* Pods-DTVideoDubbingViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTVideoDubbingViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D430ADE2E33CABD282FD1F5D2CF4B298 /* DTDubbingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDubbingUtil.h; sourceTree = "<group>"; };
 		D522919343848209532C51AA9062798C /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 				B219FBC3549C16B4D9C2141BC2C32C78 /* DTVideoDubbingView.h */,
 				049A8E7A1CE2767D038081D52376A847 /* Controller */,
 				10E2DD9EDA295C6A4A4C18AC55AA2256 /* Util */,
-				CBB7AE9E23CFFD7E009401AF /* Rosuce */,
+				CBB7AEA123CFFDE8009401AF /* Rosuce */,
 			);
 			name = core;
 			sourceTree = "<group>";
@@ -252,13 +252,13 @@
 			path = "Target Support Files/Pods-DTVideoDubbingViewDemoUITests";
 			sourceTree = "<group>";
 		};
-		CBB7AE9E23CFFD7E009401AF /* Rosuce */ = {
+		CBB7AEA123CFFDE8009401AF /* Rosuce */ = {
 			isa = PBXGroup;
 			children = (
-				CBB7AE9F23CFFD7E009401AF /* 1578277138056790.mp4 */,
+				CBB7AEA223CFFDE8009401AF /* 1578277138056790.mp4 */,
 			);
 			name = Rosuce;
-			path = src/Rosuce;
+			path = res/Rosuce;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -454,7 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBB7AEA023CFFD7E009401AF /* 1578277138056790.mp4 in Resources */,
+				CBB7AEA323CFFDE8009401AF /* 1578277138056790.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
