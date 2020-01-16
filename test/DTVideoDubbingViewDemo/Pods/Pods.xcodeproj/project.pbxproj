@@ -1,0 +1,915 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01BE208340B6860CA6D8C4A17B143EF8 /* DTVideoDubbingView.h in Headers */ = {isa = PBXBuildFile; fileRef = B219FBC3549C16B4D9C2141BC2C32C78 /* DTVideoDubbingView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0AF8813DC92D9C1B2A9D845BAAF319FB /* XXVideoDubbingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0F367FF6D70ED9497DAB948F9406FB /* XXVideoDubbingViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0C5BEAE88329A45909B1ACBBC0FF4DA9 /* DTDubbingUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6086CCC45AB990C04D5C6BEEF755C37B /* DTDubbingUtil.m */; };
+		18776E662AD7A8173EC47E5E96C7BD4D /* DTVideoDubbingView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B557D89625F24B2551FD1DD426C976C8 /* DTVideoDubbingView-dummy.m */; };
+		3D0EA83EC4A355DA78029B8092EEE0DD /* DTDubbingUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = D430ADE2E33CABD282FD1F5D2CF4B298 /* DTDubbingUtil.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		42A96C0BB72B934D5C95D8F23BFCC1C9 /* Pods-DTVideoDubbingViewDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D52F5F1562E5D299A0F591B2FA7B194 /* Pods-DTVideoDubbingViewDemoUITests-dummy.m */; };
+		4C2D419C48B51B51910E10C5BFEACAD1 /* Pods-DTVideoDubbingViewDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 26622E43C2BAE388D22E86E4E652F270 /* Pods-DTVideoDubbingViewDemo-dummy.m */; };
+		60B350F3D6919253FFD15B27D6C04B51 /* XXVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C6AF943AADFD0E148D9CB5C0140CC0 /* XXVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		692E3EC66F71E80D1E629EFB57F964FA /* Pods-DTVideoDubbingViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4A6715524CD15A7B8FAAF3981FE6A /* Pods-DTVideoDubbingViewDemoTests-dummy.m */; };
+		A6AC3E20E39911DF2C12AEF8B6C5F900 /* XXVideoDubbingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B09145F5B84C7A9C81F7253C04648B /* XXVideoDubbingViewController.m */; };
+		D3FD6437F01852E55AF15A2BC3EF750E /* XXVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D363D812DE576F0D916268D8FAFC40 /* XXVideoPlayerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		765DAC4C950FE846061E7614F12CAB39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 269383FEA997B514D9DDCB3F01123CCA;
+			remoteInfo = DTVideoDubbingView;
+		};
+		76F29693408EDD7079E684E2143C3E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCB62F4858C22E492478C81EFF4AE0A;
+			remoteInfo = "DTVideoDubbingView-DTVideoDubbingView";
+		};
+		B20D6CC22C3E554BFD9276F2A605ADC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50669377410C16DD065D68A81BA84AED;
+			remoteInfo = "Pods-DTVideoDubbingViewDemo";
+		};
+		D51D3C6CF917E78306423D71FF186B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50669377410C16DD065D68A81BA84AED;
+			remoteInfo = "Pods-DTVideoDubbingViewDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08D363D812DE576F0D916268D8FAFC40 /* XXVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXVideoPlayerViewController.m; sourceTree = "<group>"; };
+		0C2824F6F3304DEFC3CC240FBE037F36 /* DTVideoDubbingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTVideoDubbingView.xcconfig; sourceTree = "<group>"; };
+		1370B6C0FAEF9CD6B194C8D0B9F99315 /* libPods-DTVideoDubbingViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DTVideoDubbingViewDemoTests.a"; path = "libPods-DTVideoDubbingViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14867BAE53F86E58825D29A79BB05228 /* ResourceBundle-DTVideoDubbingView-DTVideoDubbingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DTVideoDubbingView-DTVideoDubbingView-Info.plist"; sourceTree = "<group>"; };
+		1D52F5F1562E5D299A0F591B2FA7B194 /* Pods-DTVideoDubbingViewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTVideoDubbingViewDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		2520372DF761E1F68147189783B7764D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		26622E43C2BAE388D22E86E4E652F270 /* Pods-DTVideoDubbingViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTVideoDubbingViewDemo-dummy.m"; sourceTree = "<group>"; };
+		30BBAC86D32D7FB7E83605648EBB20CE /* Pods-DTVideoDubbingViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTVideoDubbingViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3D691D4AAED356748624FDE746CC7196 /* Pods-DTVideoDubbingViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4906CF055571B7EEB5CCAAB9D1C775F2 /* DTVideoDubbingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DTVideoDubbingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		538642B3D5A75312D2152F2B230E055A /* Pods-DTVideoDubbingViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTVideoDubbingViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		554E171778D4D79E97399DC0BA05BCF7 /* DTVideoDubbingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTVideoDubbingView-prefix.pch"; sourceTree = "<group>"; };
+		5B3F08508A9DE6BD47C6D22C4D4FB8C6 /* Pods-DTVideoDubbingViewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTVideoDubbingViewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6086CCC45AB990C04D5C6BEEF755C37B /* DTDubbingUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DTDubbingUtil.m; sourceTree = "<group>"; };
+		6F0F367FF6D70ED9497DAB948F9406FB /* XXVideoDubbingViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXVideoDubbingViewController.h; sourceTree = "<group>"; };
+		72B09145F5B84C7A9C81F7253C04648B /* XXVideoDubbingViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXVideoDubbingViewController.m; sourceTree = "<group>"; };
+		74CF7EDAE916974DCD0455EF5823DCEF /* Pods-DTVideoDubbingViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8AC1471EF9BCB387DC145FFAE9CF2239 /* Pods-DTVideoDubbingViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemo.release.xcconfig"; sourceTree = "<group>"; };
+		989B295456571CCA09EDD6FC652863CC /* Pods-DTVideoDubbingViewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTVideoDubbingViewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9B865196EF9C79CEB5A2C4CF3CD08BC1 /* libPods-DTVideoDubbingViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DTVideoDubbingViewDemo.a"; path = "libPods-DTVideoDubbingViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A452170D90C987FBBB61825413FB9D5B /* Pods-DTVideoDubbingViewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTVideoDubbingViewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AB6FD251E48EAAC2A5B4146230408372 /* Pods-DTVideoDubbingViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AD8050EABA7267B6F95FF8F69EE4ACB2 /* libPods-DTVideoDubbingViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DTVideoDubbingViewDemoUITests.a"; path = "libPods-DTVideoDubbingViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B219FBC3549C16B4D9C2141BC2C32C78 /* DTVideoDubbingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTVideoDubbingView.h; path = src/DTVideoDubbingView.h; sourceTree = "<group>"; };
+		B557D89625F24B2551FD1DD426C976C8 /* DTVideoDubbingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTVideoDubbingView-dummy.m"; sourceTree = "<group>"; };
+		C430781821E3636895F67280FED0EDC7 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C8F4A6715524CD15A7B8FAAF3981FE6A /* Pods-DTVideoDubbingViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTVideoDubbingViewDemoTests-dummy.m"; sourceTree = "<group>"; };
+		CC41F617ED997C899BA71DA22E9E2CD2 /* Pods-DTVideoDubbingViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTVideoDubbingViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D430ADE2E33CABD282FD1F5D2CF4B298 /* DTDubbingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDubbingUtil.h; sourceTree = "<group>"; };
+		D522919343848209532C51AA9062798C /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD5E016A9C3FE06D7D7915410A83E491 /* libDTVideoDubbingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDTVideoDubbingView.a; path = libDTVideoDubbingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C9A2C1A8080555E533C98CC3E332A0 /* DTVideoDubbingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DTVideoDubbingView.bundle; path = "DTVideoDubbingView-DTVideoDubbingView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C6AF943AADFD0E148D9CB5C0140CC0 /* XXVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXVideoPlayerViewController.h; sourceTree = "<group>"; };
+		F63AF9C98BC261832AAEA426E597E27A /* Pods-DTVideoDubbingViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTVideoDubbingViewDemo-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02998E3514D89496669CE43328F41E2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51B65ED4370C6CC071B8FB65650052B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		931B76795377C62E1666A4C073D7B961 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A87D44A71C28757AF7B50B0AC403601E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C138A34F7F9BF4DE2515F03DDD083C5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049A8E7A1CE2767D038081D52376A847 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F0F367FF6D70ED9497DAB948F9406FB /* XXVideoDubbingViewController.h */,
+				72B09145F5B84C7A9C81F7253C04648B /* XXVideoDubbingViewController.m */,
+				E9C6AF943AADFD0E148D9CB5C0140CC0 /* XXVideoPlayerViewController.h */,
+				08D363D812DE576F0D916268D8FAFC40 /* XXVideoPlayerViewController.m */,
+			);
+			name = Controller;
+			path = src/Controller;
+			sourceTree = "<group>";
+		};
+		10E2DD9EDA295C6A4A4C18AC55AA2256 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D430ADE2E33CABD282FD1F5D2CF4B298 /* DTDubbingUtil.h */,
+				6086CCC45AB990C04D5C6BEEF755C37B /* DTDubbingUtil.m */,
+			);
+			name = Util;
+			path = src/Util;
+			sourceTree = "<group>";
+		};
+		1B810539EBCFF7FA65A526B2F9BD7591 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AD73F64212F570044BE2963078F781B /* DTVideoDubbingView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		294861CCDC6EBB4A424492805D9B004C /* Pods-DTVideoDubbingViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				30BBAC86D32D7FB7E83605648EBB20CE /* Pods-DTVideoDubbingViewDemo-acknowledgements.markdown */,
+				538642B3D5A75312D2152F2B230E055A /* Pods-DTVideoDubbingViewDemo-acknowledgements.plist */,
+				26622E43C2BAE388D22E86E4E652F270 /* Pods-DTVideoDubbingViewDemo-dummy.m */,
+				F63AF9C98BC261832AAEA426E597E27A /* Pods-DTVideoDubbingViewDemo-resources.sh */,
+				74CF7EDAE916974DCD0455EF5823DCEF /* Pods-DTVideoDubbingViewDemo.debug.xcconfig */,
+				8AC1471EF9BCB387DC145FFAE9CF2239 /* Pods-DTVideoDubbingViewDemo.release.xcconfig */,
+			);
+			name = "Pods-DTVideoDubbingViewDemo";
+			path = "Target Support Files/Pods-DTVideoDubbingViewDemo";
+			sourceTree = "<group>";
+		};
+		4032BD3530005147D29C8502F09FE392 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				B219FBC3549C16B4D9C2141BC2C32C78 /* DTVideoDubbingView.h */,
+				049A8E7A1CE2767D038081D52376A847 /* Controller */,
+				10E2DD9EDA295C6A4A4C18AC55AA2256 /* Util */,
+			);
+			name = core;
+			sourceTree = "<group>";
+		};
+		489C60652B55B929D6D87FF565749A44 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2824F6F3304DEFC3CC240FBE037F36 /* DTVideoDubbingView.xcconfig */,
+				B557D89625F24B2551FD1DD426C976C8 /* DTVideoDubbingView-dummy.m */,
+				554E171778D4D79E97399DC0BA05BCF7 /* DTVideoDubbingView-prefix.pch */,
+				14867BAE53F86E58825D29A79BB05228 /* ResourceBundle-DTVideoDubbingView-DTVideoDubbingView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "test/DTVideoDubbingViewDemo/Pods/Target Support Files/DTVideoDubbingView";
+			sourceTree = "<group>";
+		};
+		4AD73F64212F570044BE2963078F781B /* DTVideoDubbingView */ = {
+			isa = PBXGroup;
+			children = (
+				4032BD3530005147D29C8502F09FE392 /* core */,
+				80C353984897077ECC23703A5925F51C /* Pod */,
+				489C60652B55B929D6D87FF565749A44 /* Support Files */,
+			);
+			name = DTVideoDubbingView;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		509DB6465200FBF09B98C9E985069D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6C9A2C1A8080555E533C98CC3E332A0 /* DTVideoDubbingView.bundle */,
+				DD5E016A9C3FE06D7D7915410A83E491 /* libDTVideoDubbingView.a */,
+				9B865196EF9C79CEB5A2C4CF3CD08BC1 /* libPods-DTVideoDubbingViewDemo.a */,
+				1370B6C0FAEF9CD6B194C8D0B9F99315 /* libPods-DTVideoDubbingViewDemoTests.a */,
+				AD8050EABA7267B6F95FF8F69EE4ACB2 /* libPods-DTVideoDubbingViewDemoUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7360A978E043073EB3F53D66E2862F73 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				294861CCDC6EBB4A424492805D9B004C /* Pods-DTVideoDubbingViewDemo */,
+				E9508B13444D68AE62792FACD4D10B6F /* Pods-DTVideoDubbingViewDemoTests */,
+				9F76D5AC8344B42BF50AC4E1F66963BC /* Pods-DTVideoDubbingViewDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		80C353984897077ECC23703A5925F51C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				4906CF055571B7EEB5CCAAB9D1C775F2 /* DTVideoDubbingView.podspec */,
+				2520372DF761E1F68147189783B7764D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9F76D5AC8344B42BF50AC4E1F66963BC /* Pods-DTVideoDubbingViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A452170D90C987FBBB61825413FB9D5B /* Pods-DTVideoDubbingViewDemoUITests-acknowledgements.markdown */,
+				989B295456571CCA09EDD6FC652863CC /* Pods-DTVideoDubbingViewDemoUITests-acknowledgements.plist */,
+				1D52F5F1562E5D299A0F591B2FA7B194 /* Pods-DTVideoDubbingViewDemoUITests-dummy.m */,
+				D522919343848209532C51AA9062798C /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */,
+				3D691D4AAED356748624FDE746CC7196 /* Pods-DTVideoDubbingViewDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-DTVideoDubbingViewDemoUITests";
+			path = "Target Support Files/Pods-DTVideoDubbingViewDemoUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1B810539EBCFF7FA65A526B2F9BD7591 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				509DB6465200FBF09B98C9E985069D64 /* Products */,
+				7360A978E043073EB3F53D66E2862F73 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9508B13444D68AE62792FACD4D10B6F /* Pods-DTVideoDubbingViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC41F617ED997C899BA71DA22E9E2CD2 /* Pods-DTVideoDubbingViewDemoTests-acknowledgements.markdown */,
+				5B3F08508A9DE6BD47C6D22C4D4FB8C6 /* Pods-DTVideoDubbingViewDemoTests-acknowledgements.plist */,
+				C8F4A6715524CD15A7B8FAAF3981FE6A /* Pods-DTVideoDubbingViewDemoTests-dummy.m */,
+				AB6FD251E48EAAC2A5B4146230408372 /* Pods-DTVideoDubbingViewDemoTests.debug.xcconfig */,
+				C430781821E3636895F67280FED0EDC7 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */,
+			);
+			name = "Pods-DTVideoDubbingViewDemoTests";
+			path = "Target Support Files/Pods-DTVideoDubbingViewDemoTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		40EAB95AF7B47E471A2CDD77EF189248 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0EA83EC4A355DA78029B8092EEE0DD /* DTDubbingUtil.h in Headers */,
+				01BE208340B6860CA6D8C4A17B143EF8 /* DTVideoDubbingView.h in Headers */,
+				0AF8813DC92D9C1B2A9D845BAAF319FB /* XXVideoDubbingViewController.h in Headers */,
+				60B350F3D6919253FFD15B27D6C04B51 /* XXVideoPlayerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E6BD8E2AF35665AA9927F2DF88454E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990524E9FD967094BFD3057CC362203D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B20BFB54B997F29CFC453AA96A87F88A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		269383FEA997B514D9DDCB3F01123CCA /* DTVideoDubbingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9921A8D87423C1BAEDF0409E59DE4567 /* Build configuration list for PBXNativeTarget "DTVideoDubbingView" */;
+			buildPhases = (
+				40EAB95AF7B47E471A2CDD77EF189248 /* Headers */,
+				13F2E05982D2ADF4702E82438401BEFC /* Sources */,
+				02998E3514D89496669CE43328F41E2B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				497AFB9C54D4997006779D38ACDD11BE /* PBXTargetDependency */,
+			);
+			name = DTVideoDubbingView;
+			productName = DTVideoDubbingView;
+			productReference = DD5E016A9C3FE06D7D7915410A83E491 /* libDTVideoDubbingView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2A733AAA8F02565DB62A7859C616BCE4 /* Pods-DTVideoDubbingViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88D2232DAD32D18C3956312F50D4FC02 /* Build configuration list for PBXNativeTarget "Pods-DTVideoDubbingViewDemoUITests" */;
+			buildPhases = (
+				4E6BD8E2AF35665AA9927F2DF88454E2 /* Headers */,
+				096A0658D392930E2DCC8BCBA407DE97 /* Sources */,
+				A87D44A71C28757AF7B50B0AC403601E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C62D24B64BBFE91EBC8FD910D8E6228 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTVideoDubbingViewDemoUITests";
+			productName = "Pods-DTVideoDubbingViewDemoUITests";
+			productReference = AD8050EABA7267B6F95FF8F69EE4ACB2 /* libPods-DTVideoDubbingViewDemoUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		50669377410C16DD065D68A81BA84AED /* Pods-DTVideoDubbingViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A7CA427BF3E779803C11D6D37DAC231 /* Build configuration list for PBXNativeTarget "Pods-DTVideoDubbingViewDemo" */;
+			buildPhases = (
+				B20BFB54B997F29CFC453AA96A87F88A /* Headers */,
+				191446F0EF48BD910CECD39E1231EF1D /* Sources */,
+				51B65ED4370C6CC071B8FB65650052B0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC01681FB4DE2ED9700E93499E6B8516 /* PBXTargetDependency */,
+			);
+			name = "Pods-DTVideoDubbingViewDemo";
+			productName = "Pods-DTVideoDubbingViewDemo";
+			productReference = 9B865196EF9C79CEB5A2C4CF3CD08BC1 /* libPods-DTVideoDubbingViewDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5CCB62F4858C22E492478C81EFF4AE0A /* DTVideoDubbingView-DTVideoDubbingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8630AEECEAE255F7E45DE8FE685A9B3 /* Build configuration list for PBXNativeTarget "DTVideoDubbingView-DTVideoDubbingView" */;
+			buildPhases = (
+				476A3690AAA6E04F8AC960C649334FE5 /* Sources */,
+				931B76795377C62E1666A4C073D7B961 /* Frameworks */,
+				F9EF864EB8AC392C44DB5C85446351AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DTVideoDubbingView-DTVideoDubbingView";
+			productName = "DTVideoDubbingView-DTVideoDubbingView";
+			productReference = E6C9A2C1A8080555E533C98CC3E332A0 /* DTVideoDubbingView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F22CCDFB1A2846C208C4BFAD40B081EC /* Pods-DTVideoDubbingViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B96161B87160FD56C1FC8883BFEE4C5 /* Build configuration list for PBXNativeTarget "Pods-DTVideoDubbingViewDemoTests" */;
+			buildPhases = (
+				990524E9FD967094BFD3057CC362203D /* Headers */,
+				7EEA50966BD524B9DDC51EB6730BD779 /* Sources */,
+				C138A34F7F9BF4DE2515F03DDD083C5C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80E7943DD0EC7FFE88878D0215B5C15E /* PBXTargetDependency */,
+			);
+			name = "Pods-DTVideoDubbingViewDemoTests";
+			productName = "Pods-DTVideoDubbingViewDemoTests";
+			productReference = 1370B6C0FAEF9CD6B194C8D0B9F99315 /* libPods-DTVideoDubbingViewDemoTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 509DB6465200FBF09B98C9E985069D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				269383FEA997B514D9DDCB3F01123CCA /* DTVideoDubbingView */,
+				5CCB62F4858C22E492478C81EFF4AE0A /* DTVideoDubbingView-DTVideoDubbingView */,
+				50669377410C16DD065D68A81BA84AED /* Pods-DTVideoDubbingViewDemo */,
+				F22CCDFB1A2846C208C4BFAD40B081EC /* Pods-DTVideoDubbingViewDemoTests */,
+				2A733AAA8F02565DB62A7859C616BCE4 /* Pods-DTVideoDubbingViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9EF864EB8AC392C44DB5C85446351AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096A0658D392930E2DCC8BCBA407DE97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A96C0BB72B934D5C95D8F23BFCC1C9 /* Pods-DTVideoDubbingViewDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13F2E05982D2ADF4702E82438401BEFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C5BEAE88329A45909B1ACBBC0FF4DA9 /* DTDubbingUtil.m in Sources */,
+				18776E662AD7A8173EC47E5E96C7BD4D /* DTVideoDubbingView-dummy.m in Sources */,
+				A6AC3E20E39911DF2C12AEF8B6C5F900 /* XXVideoDubbingViewController.m in Sources */,
+				D3FD6437F01852E55AF15A2BC3EF750E /* XXVideoPlayerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		191446F0EF48BD910CECD39E1231EF1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2D419C48B51B51910E10C5BFEACAD1 /* Pods-DTVideoDubbingViewDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		476A3690AAA6E04F8AC960C649334FE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EEA50966BD524B9DDC51EB6730BD779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				692E3EC66F71E80D1E629EFB57F964FA /* Pods-DTVideoDubbingViewDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C62D24B64BBFE91EBC8FD910D8E6228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DTVideoDubbingViewDemo";
+			target = 50669377410C16DD065D68A81BA84AED /* Pods-DTVideoDubbingViewDemo */;
+			targetProxy = D51D3C6CF917E78306423D71FF186B62 /* PBXContainerItemProxy */;
+		};
+		497AFB9C54D4997006779D38ACDD11BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DTVideoDubbingView-DTVideoDubbingView";
+			target = 5CCB62F4858C22E492478C81EFF4AE0A /* DTVideoDubbingView-DTVideoDubbingView */;
+			targetProxy = 76F29693408EDD7079E684E2143C3E8B /* PBXContainerItemProxy */;
+		};
+		80E7943DD0EC7FFE88878D0215B5C15E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DTVideoDubbingViewDemo";
+			target = 50669377410C16DD065D68A81BA84AED /* Pods-DTVideoDubbingViewDemo */;
+			targetProxy = B20D6CC22C3E554BFD9276F2A605ADC2 /* PBXContainerItemProxy */;
+		};
+		CC01681FB4DE2ED9700E93499E6B8516 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTVideoDubbingView;
+			target = 269383FEA997B514D9DDCB3F01123CCA /* DTVideoDubbingView */;
+			targetProxy = 765DAC4C950FE846061E7614F12CAB39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		32098B5994552F927B6F315CAF375B34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2824F6F3304DEFC3CC240FBE037F36 /* DTVideoDubbingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DTVideoDubbingView";
+				INFOPLIST_FILE = "Target Support Files/DTVideoDubbingView/ResourceBundle-DTVideoDubbingView-DTVideoDubbingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DTVideoDubbingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		336DBDDD1894925F3D7965083D2D84B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6FD251E48EAAC2A5B4146230408372 /* Pods-DTVideoDubbingViewDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5671A926408F9A3D1C90964530C9C877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2824F6F3304DEFC3CC240FBE037F36 /* DTVideoDubbingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DTVideoDubbingView/DTVideoDubbingView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DTVideoDubbingView;
+				PRODUCT_NAME = DTVideoDubbingView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC9372FD53E512DBD0E2B2DD499F65C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74CF7EDAE916974DCD0455EF5823DCEF /* Pods-DTVideoDubbingViewDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7335C9A72345F3595DB6B00278DB59EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2824F6F3304DEFC3CC240FBE037F36 /* DTVideoDubbingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DTVideoDubbingView";
+				INFOPLIST_FILE = "Target Support Files/DTVideoDubbingView/ResourceBundle-DTVideoDubbingView-DTVideoDubbingView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DTVideoDubbingView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9A2D61642E07546204FC6A9B6B3FAEFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC1471EF9BCB387DC145FFAE9CF2239 /* Pods-DTVideoDubbingViewDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5CD8E271176D920DDE812FE3D96D5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C430781821E3636895F67280FED0EDC7 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B664986BBF749275DF6F2E2D35610CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D691D4AAED356748624FDE746CC7196 /* Pods-DTVideoDubbingViewDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D31E5EA87A88560CFD37B617EEA6A9F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D522919343848209532C51AA9062798C /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E620DE85F4FFCA1E6FAC8E34B56EC262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C2824F6F3304DEFC3CC240FBE037F36 /* DTVideoDubbingView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DTVideoDubbingView/DTVideoDubbingView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DTVideoDubbingView;
+				PRODUCT_NAME = DTVideoDubbingView;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B96161B87160FD56C1FC8883BFEE4C5 /* Build configuration list for PBXNativeTarget "Pods-DTVideoDubbingViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				336DBDDD1894925F3D7965083D2D84B9 /* Debug */,
+				9B5CD8E271176D920DDE812FE3D96D5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A7CA427BF3E779803C11D6D37DAC231 /* Build configuration list for PBXNativeTarget "Pods-DTVideoDubbingViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC9372FD53E512DBD0E2B2DD499F65C /* Debug */,
+				9A2D61642E07546204FC6A9B6B3FAEFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88D2232DAD32D18C3956312F50D4FC02 /* Build configuration list for PBXNativeTarget "Pods-DTVideoDubbingViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D31E5EA87A88560CFD37B617EEA6A9F7 /* Debug */,
+				9B664986BBF749275DF6F2E2D35610CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9921A8D87423C1BAEDF0409E59DE4567 /* Build configuration list for PBXNativeTarget "DTVideoDubbingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5671A926408F9A3D1C90964530C9C877 /* Debug */,
+				E620DE85F4FFCA1E6FAC8E34B56EC262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8630AEECEAE255F7E45DE8FE685A9B3 /* Build configuration list for PBXNativeTarget "DTVideoDubbingView-DTVideoDubbingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32098B5994552F927B6F315CAF375B34 /* Debug */,
+				7335C9A72345F3595DB6B00278DB59EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,18 @@
+PODS:
+  - DTVideoDubbingView (1.0.0):
+    - DTVideoDubbingView/core (= 1.0.0)
+  - DTVideoDubbingView/core (1.0.0)
+
+DEPENDENCIES:
+  - DTVideoDubbingView (from `../../`)
+
+EXTERNAL SOURCES:
+  DTVideoDubbingView:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  DTVideoDubbingView: fef85e827ceaa766b3c687161375a0d9f6245bce
+
+PODFILE CHECKSUM: 861714a315a6476b1fa1ff5e969758c30a4edd9e
+
+COCOAPODS: 1.7.5

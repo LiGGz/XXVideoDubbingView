@@ -1,0 +1,35 @@
+{
+  "name": "DTVideoDubbingView",
+  "version": "1.0.0",
+  "summary": "视频配音",
+  "description": "详细描述~",
+  "homepage": "https://github.com/LiGGz/XXVideoDubbingView.git",
+  "license": "COMMERCIAL",
+  "authors": {
+    "lg": "liiigunang@qq.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/LiGGz/XXVideoDubbingView.git",
+    "branch": "1.0.0"
+  },
+  "requires_arc": true,
+  "default_subspecs": "core",
+  "subspecs": [
+    {
+      "name": "core",
+      "source_files": "src/**/*.{h,m,swift}",
+      "private_header_files": [
+        "src/**/*Private.h",
+        "src/**/*private.h"
+      ],
+      "resource_bundles": {
+        "DTVideoDubbingView": [
+          "DTVideoDubbingView/**/*.{xib,png,jpg,jpeg,mp3,mp4,strings,json,lproj}"
+        ]
+      }
+    }
+  ]
+}
