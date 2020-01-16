@@ -17,6 +17,7 @@
 		60B350F3D6919253FFD15B27D6C04B51 /* XXVideoPlayerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C6AF943AADFD0E148D9CB5C0140CC0 /* XXVideoPlayerViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		692E3EC66F71E80D1E629EFB57F964FA /* Pods-DTVideoDubbingViewDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F4A6715524CD15A7B8FAAF3981FE6A /* Pods-DTVideoDubbingViewDemoTests-dummy.m */; };
 		A6AC3E20E39911DF2C12AEF8B6C5F900 /* XXVideoDubbingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72B09145F5B84C7A9C81F7253C04648B /* XXVideoDubbingViewController.m */; };
+		CBB7AE9D23CFFD33009401AF /* 1578277138056790.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CBB7AE9C23CFFD33009401AF /* 1578277138056790.mp4 */; };
 		D3FD6437F01852E55AF15A2BC3EF750E /* XXVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D363D812DE576F0D916268D8FAFC40 /* XXVideoPlayerViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -54,14 +55,14 @@
 /* Begin PBXFileReference section */
 		08D363D812DE576F0D916268D8FAFC40 /* XXVideoPlayerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXVideoPlayerViewController.m; sourceTree = "<group>"; };
 		0C2824F6F3304DEFC3CC240FBE037F36 /* DTVideoDubbingView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTVideoDubbingView.xcconfig; sourceTree = "<group>"; };
-		1370B6C0FAEF9CD6B194C8D0B9F99315 /* libPods-DTVideoDubbingViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DTVideoDubbingViewDemoTests.a"; path = "libPods-DTVideoDubbingViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1370B6C0FAEF9CD6B194C8D0B9F99315 /* libPods-DTVideoDubbingViewDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTVideoDubbingViewDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14867BAE53F86E58825D29A79BB05228 /* ResourceBundle-DTVideoDubbingView-DTVideoDubbingView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DTVideoDubbingView-DTVideoDubbingView-Info.plist"; sourceTree = "<group>"; };
 		1D52F5F1562E5D299A0F591B2FA7B194 /* Pods-DTVideoDubbingViewDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTVideoDubbingViewDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		2520372DF761E1F68147189783B7764D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2520372DF761E1F68147189783B7764D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26622E43C2BAE388D22E86E4E652F270 /* Pods-DTVideoDubbingViewDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTVideoDubbingViewDemo-dummy.m"; sourceTree = "<group>"; };
 		30BBAC86D32D7FB7E83605648EBB20CE /* Pods-DTVideoDubbingViewDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTVideoDubbingViewDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3D691D4AAED356748624FDE746CC7196 /* Pods-DTVideoDubbingViewDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4906CF055571B7EEB5CCAAB9D1C775F2 /* DTVideoDubbingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DTVideoDubbingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4906CF055571B7EEB5CCAAB9D1C775F2 /* DTVideoDubbingView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DTVideoDubbingView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		538642B3D5A75312D2152F2B230E055A /* Pods-DTVideoDubbingViewDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTVideoDubbingViewDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		554E171778D4D79E97399DC0BA05BCF7 /* DTVideoDubbingView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTVideoDubbingView-prefix.pch"; sourceTree = "<group>"; };
 		5B3F08508A9DE6BD47C6D22C4D4FB8C6 /* Pods-DTVideoDubbingViewDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTVideoDubbingViewDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -71,20 +72,21 @@
 		74CF7EDAE916974DCD0455EF5823DCEF /* Pods-DTVideoDubbingViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8AC1471EF9BCB387DC145FFAE9CF2239 /* Pods-DTVideoDubbingViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		989B295456571CCA09EDD6FC652863CC /* Pods-DTVideoDubbingViewDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTVideoDubbingViewDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		9B865196EF9C79CEB5A2C4CF3CD08BC1 /* libPods-DTVideoDubbingViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DTVideoDubbingViewDemo.a"; path = "libPods-DTVideoDubbingViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B865196EF9C79CEB5A2C4CF3CD08BC1 /* libPods-DTVideoDubbingViewDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTVideoDubbingViewDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A452170D90C987FBBB61825413FB9D5B /* Pods-DTVideoDubbingViewDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTVideoDubbingViewDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		AB6FD251E48EAAC2A5B4146230408372 /* Pods-DTVideoDubbingViewDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AD8050EABA7267B6F95FF8F69EE4ACB2 /* libPods-DTVideoDubbingViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DTVideoDubbingViewDemoUITests.a"; path = "libPods-DTVideoDubbingViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD8050EABA7267B6F95FF8F69EE4ACB2 /* libPods-DTVideoDubbingViewDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DTVideoDubbingViewDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B219FBC3549C16B4D9C2141BC2C32C78 /* DTVideoDubbingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DTVideoDubbingView.h; path = src/DTVideoDubbingView.h; sourceTree = "<group>"; };
 		B557D89625F24B2551FD1DD426C976C8 /* DTVideoDubbingView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTVideoDubbingView-dummy.m"; sourceTree = "<group>"; };
 		C430781821E3636895F67280FED0EDC7 /* Pods-DTVideoDubbingViewDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8F4A6715524CD15A7B8FAAF3981FE6A /* Pods-DTVideoDubbingViewDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTVideoDubbingViewDemoTests-dummy.m"; sourceTree = "<group>"; };
+		CBB7AE9C23CFFD33009401AF /* 1578277138056790.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1578277138056790.mp4; sourceTree = "<group>"; };
 		CC41F617ED997C899BA71DA22E9E2CD2 /* Pods-DTVideoDubbingViewDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTVideoDubbingViewDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D430ADE2E33CABD282FD1F5D2CF4B298 /* DTDubbingUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DTDubbingUtil.h; sourceTree = "<group>"; };
 		D522919343848209532C51AA9062798C /* Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTVideoDubbingViewDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DD5E016A9C3FE06D7D7915410A83E491 /* libDTVideoDubbingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDTVideoDubbingView.a; path = libDTVideoDubbingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6C9A2C1A8080555E533C98CC3E332A0 /* DTVideoDubbingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DTVideoDubbingView.bundle; path = "DTVideoDubbingView-DTVideoDubbingView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD5E016A9C3FE06D7D7915410A83E491 /* libDTVideoDubbingView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDTVideoDubbingView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C9A2C1A8080555E533C98CC3E332A0 /* DTVideoDubbingView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DTVideoDubbingView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9C6AF943AADFD0E148D9CB5C0140CC0 /* XXVideoPlayerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXVideoPlayerViewController.h; sourceTree = "<group>"; };
 		F63AF9C98BC261832AAEA426E597E27A /* Pods-DTVideoDubbingViewDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTVideoDubbingViewDemo-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -178,6 +180,7 @@
 				B219FBC3549C16B4D9C2141BC2C32C78 /* DTVideoDubbingView.h */,
 				049A8E7A1CE2767D038081D52376A847 /* Controller */,
 				10E2DD9EDA295C6A4A4C18AC55AA2256 /* Util */,
+				CBB7AE9B23CFFD33009401AF /* Rosuce */,
 			);
 			name = core;
 			sourceTree = "<group>";
@@ -247,6 +250,15 @@
 			);
 			name = "Pods-DTVideoDubbingViewDemoUITests";
 			path = "Target Support Files/Pods-DTVideoDubbingViewDemoUITests";
+			sourceTree = "<group>";
+		};
+		CBB7AE9B23CFFD33009401AF /* Rosuce */ = {
+			isa = PBXGroup;
+			children = (
+				CBB7AE9C23CFFD33009401AF /* 1578277138056790.mp4 */,
+			);
+			name = Rosuce;
+			path = src/Rosuce;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -442,6 +454,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBB7AE9D23CFFD33009401AF /* 1578277138056790.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
